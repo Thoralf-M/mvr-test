@@ -894,3 +894,6 @@ curl -s https://mainnet.mvr.mystenlabs.com/v1/names\?search\=ascii\&limit\=20\&i
   "limit": 20,
   "total": null
 }
+
+Set git_versioning in https://www.moveregistry.com/metadata
+https://suiscan.xyz/testnet/tx/8rE7LfwXVGgdNhw6pvRkdrYtgXo6FTMtacpuFEeri8vA
