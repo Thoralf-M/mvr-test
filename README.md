@@ -900,3 +900,15 @@ curl -s https://mainnet.mvr.mystenlabs.com/v1/names\?search\=ascii\&limit\=20\&i
 
 Set git_versioning in https://www.moveregistry.com/metadata
 https://suiscan.xyz/testnet/tx/8rE7LfwXVGgdNhw6pvRkdrYtgXo6FTMtacpuFEeri8vA
+
+
+# Upgraded ascii_vec package
+
+```bash
+cd ascii_vec
+sui client switch --env testnet
+sui client upgrade .
+```
+
+Created new version in https://www.moveregistry.com/metadata
+Tx: https://suiscan.xyz/testnet/tx/7wCQm56ge2pa7GiULDmSo4ttkMeezBE3kZ2DfB2F5BZW
