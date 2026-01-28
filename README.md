@@ -861,6 +861,9 @@ sui client object 0x5b6dd85447e15453db7e7cda38574f56e421bf5eecb29cb7c401d9e1b30e
 sui client switch --env testnet
 sui client object 0x3c754c8358191d0f5333c52dccc9148b757b347928ed6025472be4dfe0a16290 --json
 
+# Packages are shown here:
+curl -s "https://testnet.mvr.mystenlabs.com/v1/names?search=ascii&limit=20&is_linked=true" | jq
+
 
 curl -s https://testnet.mvr.mystenlabs.com/v1/names/@panosui/pkg | jq
 
