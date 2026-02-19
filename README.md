@@ -827,7 +827,11 @@ sui client ptb \
 --move-call @potatoes/ascii::ascii::is_ascii '"IOTA"' \
 --dev-inspect
 sui client ptb \
---move-call @iota-a/ascii-vec::ascii_vec::is_ascii_vec '"["A", "B", "C"]"' \
+--move-call @iota-a/ascii-vec::ascii_vec::is_ascii_vec vector"['"A"', '"B"', '"C"']" \
+--dev-inspect
+# use specific package version with /<version>
+sui client ptb \
+--move-call @iota-a/ascii-vec/1::ascii_vec::is_ascii_vec vector"['"A"', '"B"', '"C"']" \
 --dev-inspect
 ```
 
